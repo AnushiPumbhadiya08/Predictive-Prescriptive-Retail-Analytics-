@@ -29,6 +29,7 @@ Modern retailers collect large volumes of transaction and behavior data, yet str
 
 ## Dataset Description
 Kaggle link: https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset 
+
 The dataset contains 3,900 retail transactions across 50 US locations, including demographic, behavioral, product, logistics, and marketing variables.
 | Metric                | Value       |
 | --------------------- | ----------- |
