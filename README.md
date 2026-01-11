@@ -64,7 +64,6 @@ Data cleaning and preprocessing steps included:
 
 ## Models Implemented
 **1. Coupon Usage Prediction (Classification)**
-
 - Model: Logistic Regression
 
 - Purpose: Identify users likely to redeem coupons
@@ -86,8 +85,92 @@ Data cleaning and preprocessing steps included:
 
 - Metrics: Sales count + Total revenue
 
--Outputs:
+- Outputs:
 
   - Global top items
 
   - Seasonal/Regional priority items
+
+**3. Satisfaction Analysis (Review Rating)**
+- Model: Random Forest Regressor
+
+- Objective: Identify which attributes influence review ratings
+
+- Performance:
+
+  - RMSE: 0.76
+
+  - R²: -0.05 (predictive accuracy low → interpretation only)
+
+**4. Revenue Driver Analysis (Order Value Prediction)**
+- Models: Random Forest, Gradient Boosting
+
+- Performance (Best Model):
+
+  - RMSE: 23.82
+
+  - R²: -0.01
+
+## Dashboard Visualization
+A Grafana dashboard was built for real-time visualization of:
+
+- Core KPIs
+
+- Revenue distribution
+
+- Seasonal sales heatmaps
+
+- Geospatial revenue clusters
+
+- Product ranking
+
+## Technologies Used
+- Python
+
+- Pandas / NumPy
+
+- Scikit-learn
+
+- Random Forest / Gradient Boosting
+
+- Grafana
+
+- CSV-based Data Storage
+
+## Key Findings
+- Coupons should be targeted toward subscribers and apparel buyers
+
+- Inventory should follow a two-layer strategy:
+
+  - Global stable core items
+
+  - Local seasonal boosters
+
+- Satisfaction improvements depend on logistics + regional quality
+
+- Revenue segmentation should use LTV + product behavior, not discounts
+
+## Limitations
+- Dataset lacks time-series behavior
+
+- Limited logistics & service metrics
+
+- Gender imbalance required removal
+
+- Regression tasks lacked explanatory signals
+
+- Dashboard collaboration limited by user permissions
+
+## Future Improvements
+- Add return behavior, shipping delays, baskets
+
+- Integrate causal modeling for ratings
+
+- Reinforcement learning for promo allocation
+
+- Real-time streaming pipeline
+
+- ERP integration for planning & stock control
+
+## Conclusion
+This project demonstrates how machine learning and descriptive analytics can support data-driven retail strategy across marketing, operations, and customer experience. The combination of predictive modeling and dashboarding enables both interpretation and actionability.
