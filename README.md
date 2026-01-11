@@ -31,6 +31,8 @@ Modern retailers collect large volumes of transaction and behavior data, yet str
 Kaggle link: https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset 
 
 The dataset contains 3,900 retail transactions across 50 US locations, including demographic, behavioral, product, logistics, and marketing variables.
+
+**Dataset Dimensions (from dashboard)**
 | Metric                | Value       |
 | --------------------- | ----------- |
 | Total Transactions    | **3900**    |
@@ -44,3 +46,36 @@ Note: The Kaggle dataset originally used in this project is no longer publicly a
 Kaggle platform. All analysis in this report are based on the version downloaded prior to its 
 removal, and the dataset cannot currently be retrieved or referenced through the original Kaggle 
 link 
+
+## Data Preprocessing
+Data cleaning and preprocessing steps included:
+
+- Handling missing values
+
+- Converting numeric fields
+
+- Feature construction
+
+- Encoding categorical features
+
+- Standardization for ML models
+
+- Fairness adjustment
+
+## Models Implemented
+**1. Coupon Usage Prediction (Classification)**
+
+- Model: Logistic Regression
+
+- Purpose: Identify users likely to redeem coupons
+
+- Pipeline: StandardScaler + OneHotEncoder + LogisticRegression
+
+- Result:
+
+  - Accuracy: 0.83
+
+  - AUC: 0.81
+
+  - Threshold strategy used for selective coupon allocation
+
