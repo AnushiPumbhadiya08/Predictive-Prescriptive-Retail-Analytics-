@@ -79,3 +79,15 @@ Data cleaning and preprocessing steps included:
 
   - Threshold strategy used for selective coupon allocation
 
+**2. Inventory Optimization (Prescriptive Ranking)**
+- Method: Hierarchical aggregation
+
+- Grouping: Season → Location → Item
+
+- Metrics: Sales count + Total revenue
+
+-Outputs:
+
+  - Global top items
+
+  - Seasonal/Regional priority items
