@@ -175,7 +175,3 @@ A Grafana dashboard was built for real-time visualization of:
 ## Conclusion
 This project demonstrates how machine learning and descriptive analytics can support data-driven retail strategy across marketing, operations, and customer experience. The combination of predictive modeling and dashboarding enables both interpretation and actionability.
 
-## Contributors
-Anushi Pumbhadiya (github.com/AnushiPumbhadiya08)
-
-Arjun Parikh (github.com/ArjunParikh1404)
